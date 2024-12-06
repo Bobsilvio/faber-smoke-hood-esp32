@@ -1,0 +1,54 @@
+remote_transmitter:
+  id: ir_trasmitter
+  pin: GPIO13
+  carrier_duty_percent: 50%
+
+switch:
+  - platform: template
+    name: "Cappa Accensione/Spegnimento (Power)"
+    turn_on_action:
+      - remote_transmitter.transmit_raw:
+          carrier_frequency: 38kHz
+          code: [727, -694, 726, -1421, 1428, -693, 728, -696, 725, -1423, 1427, -2114, 700, -1417, 700, -700, 1454]
+
+  - platform: template
+    name: "Luce Cappa"
+    turn_on_action:
+      - remote_transmitter.transmit_raw:
+          carrier_frequency: 38kHz
+          code: [728, -692, 727, -699, 1454, -1417, 701, -695, 726, -699, 1455, -2809, 699, -695, 726, -705, 2181]
+
+  - platform: template
+    name: "Ventola Alta (Hi)"
+    turn_on_action:
+      - remote_transmitter.transmit_raw:
+          carrier_frequency: 38kHz
+          code: [727, -698, 1455, -1417, 700, -695, 725, -701, 1455, -1417, 700, -2119, 1427, -2119, 1427]
+
+  - platform: template
+    name: "Ventola Bassa (Lo)"
+    turn_on_action:
+      - remote_transmitter.transmit_raw:
+          carrier_frequency: 38kHz
+          code: [726, -1422, 1428, -695, 726, -694, 728, -1423, 1429, -693, 727, -2817, 1428, -1423, 1428]
+
+  - platform: template
+    name: "Modalità Clock"
+    turn_on_action:
+      - remote_transmitter.transmit_raw:
+          carrier_frequency: 38kHz
+          code: [727, -1420, 1428, -1417, 699, -2120, 1427, -2114, 701, -1422, 1427]
+
+  - platform: template
+    name: "Velocità +"
+    turn_on_action:
+      - remote_transmitter.transmit_raw:
+          carrier_frequency: 38kHz
+          code: [727, -703, 2182, -698, 722, -722, 699, -705, 2182, -694, 726, -2124, 2154, -1423, 1427]
+
+  - platform: template
+    name: "Velocità -"
+    turn_on_action:
+      - remote_transmitter.transmit_raw:
+          carrier_frequency: 38kHz
+          code: [727, -703, 2182, -696, 725, -695, 725, -707, 2180, -695, 725, -2124, 2155, -1422, 1427]
