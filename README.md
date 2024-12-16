@@ -10,6 +10,7 @@ And regypt: https://www.reddit.com/r/homeassistant/comments/kgubve/anyone_know_i
 There are so many remote controls and brands, I have listed and found some for everyone
 
 In the manuals and photos section I have inserted some images and pdfs with the manuals that I found online
+<img src="image/faber-remote.png" alt="Remote" width="350" height="500"> <img src="image/tastiera-frontale.jpg" alt="Tastiera" width="600" height="400">
 
 # Remote code:
 
