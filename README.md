@@ -92,7 +92,9 @@ alla fine ho fatto un piccolo foro e fatto passare i fili dentro il vano del mob
 Dobbiam dotarci di un IR Transmitter.
 Ho creato un foro nella tastiera, e tirato i tre fili che mi servivano per comandare il transmitter, e l'esp l'ho collegato all'alimentazione della cappa.
 
-<img src="esp32-c3.png" alt="esp32c3" width="300" height="300"><img src="ir-transmitter.png" alt="irtransmitter" width="300" height="300"> 
+<img src="ir-transmitter.png" alt="irtransmitter" width="300" height="300"> <img src="esp32-c3.png" alt="esp32c3" width="300" height="300">
+
+<img src="schema.jpg" alt="schema" width="700" height="500"> 
 
 <img src="image-myproject/IMG_1248.jpg" alt="Foto1" width="350" height="500"> 
 
