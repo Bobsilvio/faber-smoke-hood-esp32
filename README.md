@@ -84,3 +84,22 @@ Questo repository contiene i codici IR raccolti e organizzati per controllare un
 **Ventola Turbo:**
 - Normale: `[727, -698, 1455, -1417, 700, -695, 725, -701, 1455, -1417, 700, -2119, 1427, -2119, 1427]`
 - Long Press: `[728, -703, 2183, -1417, 700, -1427, 2156, -2113, 700, -705, 2182]`
+
+
+# My Project
+Per la mia FABER Ho utilizzato un esp32-c3 perchè mi serviva qualcosa di piccolo, inizialmente pensavo di tenerlo direttamente dentro la tastiera, ma ho pensato che poi i vapori della cucina avrebbero potuto rompere il mio esp, 
+alla fine ho fatto un piccolo foro e fatto passare i fili dentro il vano del mobile.
+Dobbiam dotarci di un IR Transmitter.
+Ho creato un foro nella tastiera, e tirato i tre fili che mi servivano per comandare il transmitter, e l'esp l'ho collegato all'alimentazione della cappa.
+
+<img src="esp32-c3.png" alt="esp32c3" width="300" height="300"><img src="ir-transmitter.png" alt="irtransmitter" width="300" height="300"> 
+
+<img src="image-myproject/IMG_1248.jpg" alt="Foto1" width="350" height="500"> 
+
+<img src="image-myproject/IMG_1249.jpg" alt="Foto2" width="350" height="500"> 
+<img src="image-myproject/IMG_1250.jpg" alt="Foto3" width="350" height="500"> 
+<img src="image-myproject/IMG_1252.jpg" alt="Foto4" width="350" height="500"> 
+<img src="image-myproject/IMG_1254.jpg" alt="Foto5" width="350" height="500"> 
+<img src="image-myproject/IMG_1255.jpg" alt="Foto6" width="350" height="500"> 
+<img src="image-myproject/IMG_1258.jpg" alt="Foto7" width="350" height="500"> 
+<img src="image-myproject/IMG_1262.jpg" alt="Foto8" width="350" height="500">
